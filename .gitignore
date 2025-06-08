@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files
+data/
+datasets/
+*.h5
+*.hdf5
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Models (keep only the final best model)
+models/*.pth
+!models/generator_final_best.pth
+
+# Generated images (keep only the final results)
+generated_images/epoch_*.png
+!generated_images/epoch_000.png
+!generated_images/epoch_010.png
+!generated_images/epoch_020.png
+!generated_images/epoch_030.png
+!generated_images/epoch_040.png
+!generated_images/epoch_050.png
+
+# Temporary files
+*.tmp
+*.temp 
